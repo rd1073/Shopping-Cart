@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Badge from 'react-bootstrap/Badge';
+import { FaShoppingCart } from "react-icons/fa";
 
 
 function Header() {
@@ -22,7 +23,8 @@ function Header() {
         </NavbarText>
         <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
-        Cart  <Badge bg="secondary">{10}</Badge>
+      <FaShoppingCart />
+      <Badge bg="secondary">{10}</Badge>
       </Dropdown.Toggle>
 
       <Dropdown.Menu>

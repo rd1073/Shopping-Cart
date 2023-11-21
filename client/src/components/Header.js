@@ -14,6 +14,8 @@ function Header() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/">Ecommerce Site</Navbar.Brand>
+         
+
         <NavbarText className="mx-auto">
           <Form.Control
             type="search"
@@ -28,9 +30,8 @@ function Header() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <span>Cart is empty!</span>
+         
       </Dropdown.Menu>
     </Dropdown>
       </Container>
